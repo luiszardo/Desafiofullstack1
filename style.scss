@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+header{
+  width: 100%;
+  background-color: #FF69B4;;
+  color: #E4EEF1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+
+  figure{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  section{
+    width: 55vw;
+    ul{
+      display: flex;
+      justify-content: space-evenly;
+      li{
+        color: #E4EEF1;
+        font-size: 20px;
+        font-weight: 600;
+        list-style: none;
+      }
+    }
+  }
+}
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  .conscientizacao{
+    height: 60vh;
+  }
+  .maratona{
+    height: 35vh;
+    width: 30vw;
+  }
+  .imagens{
+    width: 100%;
+    background-color: #FFD9EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 45vh;
+  }
+  .mamografia{
+    height: 30vh;
+  }
+  .alimentacao{
+    height: 30vh;
+  }
+  .medico{
+    height: 30vh;
+  }
+  .eviteBebidas{
+    height: 30vh;
+  }
+}
+.primeiraSessao {
+  width: 100%;
+  background-color: #FFD9EC;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70vh;
+}
+.primeiroTexto {
+  width: 35vw;
+  height: 35vh;
+  font-size: 19px;
+  color: #000000;
+}
+.segundaSessao{
+  width: 100%;
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 45vh;
+}
+.segundoTexto{
+  width: 40vw;
+  height: 23vh;
+  font-size: 19px;
+  color: #E4EEF1;
+}
+footer{
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FF69B4;
+  nav{
+    width: 15vw;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  ul{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  li{
+    list-style: none;
+    color: #E4EEF1;
+    pointer-events: none;
+  }
+  img{
+    height: 8vh;
+  }
+  .outubroRosa{
+    height: 15vh;
+  }
+}
